@@ -1,0 +1,13 @@
+body {
+    font-size: .875rem;
+  }
+
+  .container {
+    max-width: 960px;
+    text-align:center;
+    margin: auto;
+  }
+
+  .login {
+    font-size: 25px;
+  }
