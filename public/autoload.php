@@ -1,5 +1,4 @@
 <?php
-echo "cargando autoload";
 function cargadorClases($clase){
     $fichero = "../clases/{$clase}.php";
     if(file_exists($fichero)){

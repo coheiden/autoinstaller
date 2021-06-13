@@ -1,6 +1,5 @@
 <?php
 
-echo "cargando config";
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'prueba' );
 
