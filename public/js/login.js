@@ -5,8 +5,6 @@ function main() {
   addListenerForm();
 }
 
-
-
 function addListenerForm() {
   let formulario = document.getElementById("formulario");
   //console.log(formulario);

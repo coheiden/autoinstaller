@@ -1,7 +1,7 @@
 <?php
 
 
-/** The name of the database for WordPress */
+/** The name of the database */
 define( 'DB_NAME', 'database_name_here' );
 
 /** MySQL database username */
