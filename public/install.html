@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>titulo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/install.css" />
+  <script type="text/javascript" src="js/install.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div>
+        <span class="logo logo-1">PROJECT</span>
+        <span class="logo logo-2">INSTALLER</span>
+      </div>
+
+      <div>
+        <form action="" method="post" id="formulario">
+          <label for="DB_HOST">Host de la base de datos:</label><br>
+          <input type="text" id="host_database" name="DB_HOST"/><br>
+          <label for="DB_NAME">Nombre de la base de datos:</label><br>
+          <input type="text" id="name_database" name="DB_NAME"/><br>
+          <label for="DB_USER">Usuario de la base de datos:</label><br>
+          <input type="text" id="username_database" name="DB_USER"/><br>
+          <label for="DB_PASSWORD">Contraseña de la base de datos:</label><br>
+          <input type="password" id="password_database" name="DB_PASSWORD"/><br>
+          <input id="saveForm" class="button_text" type="submit" name="submit" value="Instalar" />
+            <p class="mensaje">ERROR NO CONECTA</p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2021–2021 Proyect Installer</p>
+    </footer>
+  </div>
+</body>
+
+</html>
