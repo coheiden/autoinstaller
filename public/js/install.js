@@ -24,7 +24,7 @@ function enviaForm(formElement) {
       showMessage(respuesta);
     }
   };
-  xhttp.open("POST", "api/login.php", true);
+  xhttp.open("POST", "api/install.php", true);
   xhttp.send(formData);
   //console.log(formData);
 }
@@ -32,16 +32,16 @@ function enviaForm(formElement) {
 function showMessage(message) {
   if (message.mensaje == 1) {
     window.setTimeout(function () {
-      window.location.href = "portal.html";
+      window.location.href = "index.html";
       }, 1000);
   }else {
     if (message.mensaje == 0) {
       //let lead = document.getElementsByClassName("lead");
       //lead[0].innerHTML = "-- login invalido --";
       //lead[0].setAttribute("class", "lead text-danger");
-      console.log("login invalido");
+      console.log("DATOS ERRONEOS - NO CONECTA");
     } else {
-      console.log("ERROR NO INSTALADO");
+      console.log("ERROR DESCONOCIDO REINSTALA DE NUEVO");
     }
   }
 }

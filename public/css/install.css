@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+.container {
+  max-width: 960px;
+  text-align:center;
+  font-size: 25px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.logo {
+	font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 70px;
+	color: blue;
+}
+
+.logo-2 {
+  font-weight: 100;
+}
+.logo-1 {
+  font-weight: 300;
+}
+
+.mensaje {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(255, 0, 0);
+}
+
+
+footer {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+#formulario {
+  width: 70%;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  border-style: solid;
+  border-width: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 10px #4e4e4e;
+}
+
+input[type="submit"] {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+  background-color: #1432b6;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  
+  border-radius: 4px;
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25)
+}
+input[type="text"],
+input[type="password"] {
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  padding: 1%;
+}
