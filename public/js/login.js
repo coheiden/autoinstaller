@@ -25,8 +25,9 @@ function enviaForm(formElement) {
     }
   };
   xhttp.open("POST", "api/login.php", true);
-  xhttp.send(formData);
-  //console.log(formData);
+  let json = (JSON.stringify(Object.fromEntries(formData))); //formData convertido a json
+  //console.log(json)
+  xhttp.send(json); //enviando los datos
 }
 
 function showMessage(message) {

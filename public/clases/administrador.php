@@ -19,10 +19,10 @@ class administrador extends conexion
 
     // Funcion imprescindible que comprueba los datos de POST y comprueba la PASSWORD y genera las variables de SESSION
 
-    public function comprobarDatosPost($datosForm)
+    public function checkLogin($data)
     {
-        $user = $datosForm["user"];
-        $password = $datosForm["password"];
+        $user = $data->user;
+        $password = $data->password;
 
         $infoUser = $this->obtenerInfo($user);
 
